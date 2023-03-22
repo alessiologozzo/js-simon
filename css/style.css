@@ -55,3 +55,11 @@ body{
 .al-blue{
     color: turquoise;
 }
+
+input[type="text"]{
+    width: 100px;
+    border: 1px solid black;
+    padding: 0.2rem 0.3rem;
+    background-color: white;
+    color: black;
+}
