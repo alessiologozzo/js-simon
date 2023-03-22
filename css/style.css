@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.row{
+    height: 83vh;
+}
+
+.al-button{
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.7rem 1.3rem;
+    transition: transform 300ms;
+}
+
+.al-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.al-element{
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem;
+}
+
+.al-timer{
+    background-color: #3c88b8;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem 2.2rem;
+}
+
+.al-green, .al-red, .al-blue{
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.al-green-sm, .al-red-sm{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.al-green, .al-green-sm{
+    color: rgb(94, 216, 94);
+}
+
+.al-red, .al-red-sm{
+    color: rgb(255, 46, 46);
+}
+
+.al-blue{
+    color: turquoise;
+}
